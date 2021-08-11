@@ -1,0 +1,6 @@
+// New GET ORDER query;
+SELECT `order_details`.*FROM `order_details` INNER JOIN `department_order` ON `order_details`.`order_id` = `department_order`.`order_id` WHERE `department_order`.`department` = 'IT'
+
+
+// New GET users for notification query
+SELECT `users`.`employee` FROM `users` INNER JOIN `departments` ON `users`.`user_ID` = `departments`.`user_ID` INNER JOIN `department_order` ON `departments`.`department` = `department_order`.`department` WHERE `department_order`.`order_id` = 'PDL-SC-1'

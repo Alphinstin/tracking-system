@@ -1,0 +1,36 @@
+.ul{
+  position: absolute;
+}
+.form-signin {
+    width: 60%;
+    max-width: 430px;
+    padding: 15px;
+    margin: 50px auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .bg-drill{
+      background:#033;
+  }
+  .btn-login{color:#fff;background-color:#033;border-color:#033}.btn-login:hover{color:#fff;background-color:#033;border-color:#033}.btn-login.focus,.btn-login:focus{box-shadow:0 0 0 .2rem rgba(38,143,255,.5)}.btn-login.disabled,.btn-login:disabled{color:#fff;background-color:#27292b;border-color:#151516}.btn-login:not(:disabled):not(.disabled).active,.btn-login:not(:disabled):not(.disabled):active,.show>.btn-login.dropdown-toggle{color:#fff;background-color:#033;border-color:#033}.btn-login:not(:disabled):not(.disabled).active:focus,.btn-login:not(:disabled):not(.disabled):active:focus,.show>.btn-login.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(38,143,255,.5)}
